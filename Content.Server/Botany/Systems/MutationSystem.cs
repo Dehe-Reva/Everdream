@@ -56,11 +56,11 @@ public sealed class MutationSystem : EntitySystem
         }
 
         // Add up everything in the bits column and put the number here.
-        const int totalbits = 285;
+        const int totalbits = 275;
 
         // Tolerances (55)
         MutateFloat(ref seed.NutrientConsumption  , 0.05f, 1.2f, 5, totalbits, severity);
-        MutateFloat(ref seed.WaterConsumption     , 3f   , 9f  , 5, totalbits, severity);
+        MutateFloat(ref seed.WaterConsumption     , 0.3f,  0.9f, 5, totalbits, severity); // DEN: 3-9 -> 0.3 - 0.9
         MutateFloat(ref seed.IdealHeat            , 263f , 323f, 5, totalbits, severity);
         MutateFloat(ref seed.HeatTolerance        , 2f   , 25f , 5, totalbits, severity);
         MutateFloat(ref seed.IdealLight           , 0f   , 14f , 5, totalbits, severity);
@@ -88,7 +88,7 @@ public sealed class MutationSystem : EntitySystem
         MutateBool(ref seed.Sentient      , true , 10, totalbits, severity);
         MutateBool(ref seed.Ligneous      , true , 10, totalbits, severity);
         MutateBool(ref seed.Teleporting   , true , 10, totalbits, severity);
-        MutateBool(ref seed.Bioluminescent, true , 10, totalbits, severity);
+        // MutateBool(ref seed.Bioluminescent, true , 10, totalbits, severity); // DEN: removed sorry :(
         MutateBool(ref seed.TurnIntoKudzu , true , 10, totalbits, severity);
         MutateBool(ref seed.CanScream     , true , 10, totalbits, severity);
         seed.BioluminescentColor = RandomColor(seed.BioluminescentColor, 10, totalbits, severity);
