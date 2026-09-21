@@ -20,7 +20,7 @@ namespace Content.Shared.Decals
     [Prototype("decal")]
     public sealed partial class DecalPrototype : IPrototype, IInheritingPrototype
     {
-        [IdDataField] public string ID { get; set; } = null!;
+        [IdDataField] public string ID { get; } = null!;
         [DataField("sprite")] public SpriteSpecifier Sprite { get; private set; } = SpriteSpecifier.Invalid;
         [DataField("tags")] public List<string> Tags = new();
         [DataField("showMenu")] public bool ShowMenu = true;
@@ -49,11 +49,11 @@ namespace Content.Shared.Decals
         public bool DefaultSnap = true;
 
         [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<DecalPrototype>))]
-        public string[]? Parents { get; set; }
+        public string[]? Parents { get; }
 
         [NeverPushInheritance]
         [AbstractDataField]
-        public bool Abstract { get; set; }
+        public bool Abstract { get; }
 
     }
 }

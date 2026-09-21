@@ -13,7 +13,7 @@ public sealed partial class ConsentCategoryPrototype : IPrototype
 {
     /// <inheritdoc/>
     [IdDataField]
-    public string ID { get; set; } = default!;
+    public string ID { get; } = default!;
 
     [DataField]
     public int Priority { get; set; } = 100;

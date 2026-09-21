@@ -38,12 +38,12 @@ namespace Content.Shared.Research.Prototypes
 
         /// <inheritdoc/>
         [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<LatheRecipePrototype>))]
-        public string[]? Parents { get; set; }
+        public string[]? Parents { get; }
 
         /// <inheritdoc />
         [NeverPushInheritance]
         [AbstractDataField]
-        public bool Abstract { get; set; }
+        public bool Abstract { get; }
 
         /// <summary>
         ///     Name displayed in the lathe GUI.

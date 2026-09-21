@@ -17,16 +17,16 @@ namespace Content.Shared._EE.Contractors.Prototypes;
 public sealed partial class EmployerPrototype : IPrototype
 {
     [IdDataField, ViewVariables]
-    public string ID { get; set; } = string.Empty;
+    public string ID { get; } = string.Empty;
 
     [DataField]
-    public string NameKey { get; set; } = string.Empty;
+    public string NameKey { get; } = string.Empty;
 
     [DataField]
-    public string DescriptionKey { get; set; } = string.Empty;
+    public string DescriptionKey { get; } = string.Empty;
 
     [DataField, ViewVariables]
-    public HashSet<ProtoId<EmployerPrototype>> Rivals { get; set; } = new();
+    public HashSet<ProtoId<EmployerPrototype>> Rivals { get; } = new();
 
     [DataField]
     public List<CharacterRequirement> Requirements = new();

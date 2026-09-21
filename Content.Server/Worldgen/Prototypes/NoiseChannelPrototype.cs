@@ -92,12 +92,12 @@ public sealed partial class NoiseChannelPrototype : NoiseChannelConfig, IPrototy
 {
     /// <inheritdoc />
     [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<EntityPrototype>))]
-    public string[]? Parents { get; set; }
+    public string[]? Parents { get; }
 
     /// <inheritdoc />
     [NeverPushInheritance]
     [AbstractDataField]
-    public bool Abstract { get; set; }
+    public bool Abstract { get; }
 
     /// <inheritdoc />
     [IdDataField]

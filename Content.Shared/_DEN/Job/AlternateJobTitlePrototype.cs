@@ -19,13 +19,13 @@ public sealed partial class AlternateJobTitlePrototype : IPrototype
 {
     /// <inheritdoc/>
     [IdDataField]
-    public string ID { get; set; } = default!;
+    public string ID { get; } = default!;
 
     [DataField]
-    public ProtoId<JobPrototype> JobId { get; set; } = string.Empty;
+    public ProtoId<JobPrototype> JobId { get; } = string.Empty;
 
     [DataField]
-    public List<CharacterRequirement> Requirements { get; set; } = new();
+    public List<CharacterRequirement> Requirements { get; } = new();
 
     [DataField]
     public List<LocId> Titles { get; set; } = new();

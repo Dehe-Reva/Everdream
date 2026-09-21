@@ -31,11 +31,11 @@ namespace Content.Shared.Materials
     {
         [ViewVariables]
         [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<MaterialPrototype>))]
-        public string[]? Parents { get; set; }
+        public string[]? Parents { get; }
 
         [ViewVariables]
         [AbstractDataField]
-        public bool Abstract { get; set; } = false;
+        public bool Abstract { get; } = false;
 
         [ViewVariables]
         [IdDataField]

@@ -26,7 +26,7 @@ namespace Content.Shared.Damage.Prototypes
     [Serializable, NetSerializable]
     public sealed partial class DamageGroupPrototype : IPrototype
     {
-        [IdDataField] public string ID { get; set; } = default!;
+        [IdDataField] public string ID { get; } = default!;
 
         [DataField(required: true)]
         private LocId Name { get; set; }

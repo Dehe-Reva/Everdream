@@ -12,8 +12,8 @@ namespace Content.Shared.Shipyard.Prototypes;
 /// Prevents making typos being silently ignored by the linter.
 /// </summary>
 [Prototype("vesselCategory")]
-public sealed partial class VesselCategoryPrototype : IPrototype
+public sealed class VesselCategoryPrototype : IPrototype
 {
     [ViewVariables, IdDataField]
-    public string ID { get; set; } = default!;
+    public string ID { get; } = default!;
 }

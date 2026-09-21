@@ -16,7 +16,7 @@ namespace Content.Shared.Speech;
 [Prototype("speechVerb")]
 public sealed partial class SpeechVerbPrototype : IPrototype
 {
-    [IdDataField] public string ID { get; set; } = default!;
+    [IdDataField] public string ID { get; } = default!;
 
     /// <summary>
     ///     Loc strings to be passed to the chat wrapper. 'says', 'states', etc.

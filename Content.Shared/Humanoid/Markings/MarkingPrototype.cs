@@ -26,11 +26,11 @@ namespace Content.Shared.Humanoid.Markings
 
         // AuroraSong: Make markings inheriting
         [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<MarkingPrototype>))]
-        public string[]? Parents { get; set; }
+        public string[]? Parents { get; }
 
         [NeverPushInheritance]
         [AbstractDataField]
-        public bool Abstract { get; set; }
+        public bool Abstract { get; }
         // End AuroraSong
 
         public string Name { get; private set; } = default!;

@@ -39,6 +39,7 @@ using Content.Shared._Shitmed.Humanoid.Events; // Shitmed Change
 using Content.Shared.IdentityManagement;
 using Content.Shared.Preferences;
 using Content.Shared.HeightAdjust;
+using Microsoft.Extensions.Configuration;
 using Robust.Shared;
 using Robust.Shared.Configuration;
 using Robust.Shared.GameObjects.Components.Localization;

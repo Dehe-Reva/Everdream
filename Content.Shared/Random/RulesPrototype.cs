@@ -21,7 +21,7 @@ namespace Content.Shared.Random;
 [Prototype("rules")]
 public sealed partial class RulesPrototype : IPrototype
 {
-    [IdDataField] public string ID { get; set; } = string.Empty;
+    [IdDataField] public string ID { get; } = string.Empty;
 
     [DataField("rules", required: true)]
     public List<RulesRule> Rules = new();

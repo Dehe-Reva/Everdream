@@ -25,12 +25,12 @@ public sealed partial class QuickPhrasePrototype : IPrototype, IInheritingProtot
     /// </summary>
     [ViewVariables]
     [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<QuickPhrasePrototype>))]
-    public string[]? Parents { get; set; }
+    public string[]? Parents { get; }
 
     [ViewVariables]
     [NeverPushInheritance]
     [AbstractDataField]
-    public bool Abstract { get; set; }
+    public bool Abstract { get; }
 
     /// <summary>
     /// The phrase that this prototype represents.
@@ -75,12 +75,12 @@ public sealed partial class QuickPhraseGroupPrototype : IPrototype, IInheritingP
     /// </summary>
     [ViewVariables]
     [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<QuickPhraseGroupPrototype>))]
-    public string[]? Parents { get; set; }
+    public string[]? Parents { get; }
 
     [ViewVariables]
     [NeverPushInheritance]
     [AbstractDataField]
-    public bool Abstract { get; set; }
+    public bool Abstract { get; }
 
     /// <summary>
     /// List of prototype IDs in this group.

@@ -9,10 +9,10 @@ using Robust.Shared.Prototypes;
 namespace Content.Shared.WhiteDream.BloodCult.Runes;
 
 [Prototype("runeSelector")]
-public sealed partial class RuneSelectorPrototype : IPrototype
+public sealed class RuneSelectorPrototype : IPrototype
 {
     [IdDataField]
-    public string ID { get; set; } = default!;
+    public string ID { get; } = default!;
 
     [DataField(required: true)]
     public EntProtoId Prototype;

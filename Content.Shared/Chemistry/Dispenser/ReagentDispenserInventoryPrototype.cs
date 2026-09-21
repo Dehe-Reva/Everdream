@@ -32,11 +32,11 @@ namespace Content.Shared.Chemistry.Dispenser
     {
         // DEN start: Make inheriting
         [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<ReagentDispenserInventoryPrototype>))]
-        public string[]? Parents { get; set; }
+        public string[]? Parents { get; }
 
         [NeverPushInheritance]
         [AbstractDataField]
-        public bool Abstract { get; set; }
+        public bool Abstract { get; }
         // End DEN
 
         [DataField("inventory", customTypeSerializer: typeof(PrototypeIdListSerializer<EntityPrototype>))]
@@ -44,6 +44,6 @@ namespace Content.Shared.Chemistry.Dispenser
         public List<string> Inventory = new();
 
         [ViewVariables, IdDataField]
-        public string ID { get; set; } = default!;
+        public string ID { get; } = default!;
     }
 }
