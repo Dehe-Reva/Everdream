@@ -175,7 +175,7 @@ public sealed partial class SpeciesPrototype : IPrototype
     ///     although imagine if ghosts could age people WYCI...
     /// </summary>
     [DataField]
-    public int MaxAge = 120;
+    public int MaxAge = 99999;
 
     /// <summary>
     ///     The minimum height and width ratio for this species

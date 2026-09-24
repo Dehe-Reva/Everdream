@@ -31,7 +31,7 @@
   olderAge: 150 # TheDen - Also originally 50, labels all IPCs over 150 "older"
   oldAge:  250 # TheDen - Doesn't really exist, all IPCs should go from "older" to "ancient"
   ancientAge: 250 # TheDen - The default value, included here for context
-  maxAge: 300
+#  maxAge: 300 # Everdream - Lifting age restrictions
   maleFirstNames: IpcFirst
   femaleFirstNames: IpcFirst
   lastNames: IpcLast
