@@ -2644,23 +2644,6 @@
 
 - type: entity
   parent: BasePlushie
-  id: PlushieVega
-  name: vega plushie
-  description: smells like vanilla and an electrical fire.
-  components:
-  - type: Sprite
-    sprite: Objects/Fun/toys.rsi
-    state: vegaplushie
-  - type: StaminaDamageOnHit
-    damage: 0.8
-  - type: UseDelay
-    delay: 1.5
-  - type: FoodSequenceElement
-    entries:
-      CottonBurger: VegaPlushie
-
-- type: entity
-  parent: BasePlushie
   id: PlushieJenn
   name: jenn plushie
   description: Smells like vanilla and dominance.

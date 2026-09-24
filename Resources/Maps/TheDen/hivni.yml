@@ -66684,7 +66684,7 @@ entities:
         Heya clowns! Head architect here.
 
 
-        I noticed there was no place for the vox to eat according to the old designs, so i turned the clown stage into a vox box! Because of that, you'll need to share the stage with your co-workers. 
+        I noticed there was no place for the vox to eat according to the old designs, so i turned the clown stage into a vox box! Because of that, you'll need to share the stage with your co-workers.
 
 
         Im sure quality preformers such as yourselves will have no problems adapting however! So go get em! Spread cheer to the crew!
@@ -66782,7 +66782,7 @@ entities:
 
         [logo]
 
-        Greetings clowns, jesters, and any other humor based performers. Due to necessary changes in crew resources, your stage has been replaced with an area for nitrogen-breathing crew to eat. 
+        Greetings clowns, jesters, and any other humor based performers. Due to necessary changes in crew resources, your stage has been replaced with an area for nitrogen-breathing crew to eat.
 
 
         Please make use of the stage immediately next to it as time allows, and coordinate with your fellow performers to continue increasing crew morale.
@@ -67381,7 +67381,7 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: PlushieVega
+- proto: PlushieHarpy
   entities:
   - uid: 9089
     components:

@@ -131128,7 +131128,7 @@ entities:
     - type: Transform
       pos: -57.586098,20.595873
       parent: 2
-- proto: PlushieVega
+- proto: PlushieHarpy
   entities:
   - uid: 11894
     components:

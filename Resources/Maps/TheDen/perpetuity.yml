@@ -58354,7 +58354,7 @@ entities:
       parent: 2
     - type: Paper
       content: >-
-        I brought all the 'grilles' the kitchen had, but it seems they weren't needed? 
+        I brought all the 'grilles' the kitchen had, but it seems they weren't needed?
 
 
         If you see the Cheif Engineer, I dont know... tell them I am lactose intolerant for future projects.
@@ -58559,7 +58559,7 @@ entities:
     - type: Physics
       angularDamping: 0
       linearDamping: 0
-- proto: PlushieVega
+- proto: PlushieHarpy
   entities:
   - uid: 8806
     components:
