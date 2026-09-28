@@ -228,7 +228,7 @@
   - type: NightVision # Den
     drawOverlay: false
     activateSound: null
-    deactivateSound: false
+    deactivateSound: null
     color: "#808080"
   - type: Fauna # Lavaland Change
   - type: Body # Den
