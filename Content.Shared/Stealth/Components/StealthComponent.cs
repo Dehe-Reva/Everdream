@@ -34,7 +34,7 @@ public sealed partial class StealthComponent : Component
     /// <summary>
     /// The creature will continue invisible at death.
     /// </summary>
-    [DataField("1")]
+    [DataField("enabledOnDeath")]
     public bool EnabledOnDeath = true;
 
     /// <summary>
