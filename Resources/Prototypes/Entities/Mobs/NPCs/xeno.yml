@@ -74,6 +74,7 @@
   - type: PassiveDamage
     allowedStates:
     - Alive
+    - Critical
     damage:
       types:
         Heat: -1.5
@@ -138,8 +139,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      250: Critical
-      350: Dead # DeltaV - Was 50
+      150: Critical
+      200: Dead # DeltaV - Was 50
   - type: SlowOnDamage
     speedModifierThresholds:
       75: 0.8
@@ -280,7 +281,7 @@
     thresholds:
       0: Alive
       300: Critical
-      400: Dead  # DeltaV - Was 100
+      350: Dead  # DeltaV - Was 100
   - type: Stamina
     critThreshold: 300
   - type: SlowOnDamage
@@ -323,8 +324,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      130: Critical
-      160: Dead # DeltaV - Was 80
+      150: Critical
+      200: Dead # DeltaV - Was 80
   - type: SlowOnDamage
     speedModifierThresholds:
       80: 0.8
@@ -366,13 +367,13 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      600: Critical
-      700: Dead # DeltaV - Was 300
+      500: Critical
+      600: Dead # DeltaV - Was 300
   - type: SlowOnDamage
     speedModifierThresholds:
       300: 0.9
       400: 0.8
-      500: 0.7
+      450: 0.7
   - type: MovementSpeedModifier
   - type: MeleeWeapon
     damage:
@@ -420,8 +421,8 @@
   - type: MobThresholds
     thresholds:
       0: Alive
-      300: Critical
-      350: Dead # DeltaV - Was 100
+      200: Critical
+      250: Dead # DeltaV - Was 100
   - type: MovementSpeedModifier
     baseSprintSpeed: 5 # DeltaV - Was 4
   - type: MeleeWeapon
@@ -524,11 +525,12 @@
   - type: MobThresholds
     thresholds:
       0: Alive
+      250: Critical # Den
       300: Dead # DeltaV - Was 50
   - type: SlowOnDamage
     speedModifierThresholds:
-      50: 0.8
-      75: 0.5
+      150: 0.8
+      200: 0.5
   - type: HTN
     rootTask:
       task: SimpleRangedHostileCompound
