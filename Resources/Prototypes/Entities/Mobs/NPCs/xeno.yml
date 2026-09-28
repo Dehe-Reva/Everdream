@@ -231,6 +231,8 @@
     deactivateSound: false
     color: "#808080"
   - type: Fauna # Lavaland Change
+  - type: Body # Den
+    prototype: Xeno # Den
   - type: Destructible
     thresholds:
     - trigger:
