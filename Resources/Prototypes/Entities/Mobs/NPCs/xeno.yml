@@ -453,6 +453,7 @@
   - type: Stealth
     minVisibility: -1
     lastVisibility: 0.1
+    enabledOnDeath: false
   - type: BreakStealthOnAttack
   - type: StealthOnMove
     passiveVisibilityRate: -0.65
