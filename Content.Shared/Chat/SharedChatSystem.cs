@@ -54,7 +54,7 @@ public abstract class SharedChatSystem : EntitySystem
     public const char DefaultChannelKey = 'h';
 
     public float VoiceRange = 10f; // how far voice goes in world units
-    public float WhisperClearRange = 2f; // how far whisper goes while still being understandable, in world units
+    public float WhisperClearRange = 4f; // how far whisper goes while still being understandable, in world units
     public float InSpaceRange = .3f; // how far speech travels in space
 
     [ValidatePrototypeId<RadioChannelPrototype>]
