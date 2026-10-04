@@ -53,6 +53,17 @@ public sealed class JobsCommand : ToolshedCommand
     [CommandImplementation("isinfinite")]
     public IEnumerable<bool> IsInfinite([PipedArgument] IEnumerable<JobSlotRef> jobs, [CommandInverted] bool inverted) => jobs.Select(x => IsInfinite(x, inverted));
 
+    [CommandImplementation("setinfinite")]
+    public JobSlotRef SetInfinite([PipedArgument] JobSlotRef @ref)
+    {
+        _jobs ??= GetSys<StationJobsSystem>();
+        _jobs.MakeJobUnlimited(@ref.Station, @ref.Job);
+        return @ref;
+    }
+
+    [CommandImplementation("setinfinite")]
+    public IEnumerable<JobSlotRef> SetInfinite([PipedArgument] IEnumerable<JobSlotRef> @ref, bool infinite) => @ref.Select(x => SetInfinite(x));
+
     [CommandImplementation("adjust")]
     public JobSlotRef Adjust([PipedArgument] JobSlotRef @ref, int by)
     {
