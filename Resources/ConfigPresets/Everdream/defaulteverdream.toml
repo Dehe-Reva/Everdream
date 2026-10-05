@@ -77,7 +77,7 @@ allow_same_character = true
 fork_id = "everdream"
 
 [vote]
-autovote_enabled = true
+autovote_enabled = false
 
 [shuttle]
 arrivals_planet = false
