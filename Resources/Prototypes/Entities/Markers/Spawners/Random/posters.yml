@@ -116,6 +116,7 @@
       - PosterContrabandAyaya # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterContrabandMissingSpacepen
       - PosterContrabandGorlexGirlfriends # DEN
+      - PosterContrabandGorlexGirlfriends2 # DEN
     chance: 1
 
 - type: entity
