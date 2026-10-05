@@ -115,8 +115,8 @@
       - PosterContrabandGotWood # DeltaV Poster, see Resources/Prototypes/_DV/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterContrabandAyaya # Nyanotrasen Poster, see Resources/Prototypes/Nyanotrasen/Entities/Structures/Wallmount/Signs/posters.yml
       - PosterContrabandMissingSpacepen
-      - PosterContrabandGorlexGirlfriends # DEN
-      - PosterContrabandGorlexGirlfriends2 # DEN
+      - PosterContrabandGorlexGirlfriends # Everdream
+      - PosterContrabandGorlexGirlfriends2 # Everdream
     chance: 1
 
 - type: entity
