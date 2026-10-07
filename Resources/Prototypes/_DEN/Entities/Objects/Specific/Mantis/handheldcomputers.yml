@@ -6,6 +6,7 @@
 
 - type: entity
   parent: [BaseHandheldComputer, BaseMantisContraband] # Spawns in the mantis's pocket, contraband so they can't really give it away
+  categories: [ HideSpawnMenu ]
   id: HandheldPsionicsRegistry
   name: handheld psion registry
   description: "Grants access to the psion registry without having to return to your office."

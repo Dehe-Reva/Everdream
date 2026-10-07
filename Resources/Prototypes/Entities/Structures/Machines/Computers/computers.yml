@@ -569,6 +569,7 @@
 
 - type: entity
   parent: [ BaseComputerAiAccess, BasePsionic ] # Funny
+  categories: [ HideSpawnMenu ]
   id: ComputerPsionicsRecords
   name: psion registry computer # TheDen - Standardizing "psion" to mean people, and "psionic" to be an adjective
   description: This can be used to check psion registry records. Only Epistemics can modify them. # TheDen
