@@ -85,7 +85,7 @@
     outerClothing: ClothingOuterWinterCoatMantisDarkFolded # TheDen
     belt: ClothingBeltMantisDark # TheDen
     # pocket1: BookPsionicsGuidebook # TheDen - Throwing this in their locker because it sucks
-    pocket1: HandheldPsionicsRegistry # TheDen
+    # pocket1: HandheldPsionicsRegistry # TheDen
   innerClothingSkirt: ClothingUniformSkirtMantisAiry # TheDen
   satchel: ClothingBackpackSatchelMantis # TheDen - Nothing to fill it with anymore
   duffelbag: ClothingBackpackDuffelMantis # TheDen - Nothing to fill it with anymore
