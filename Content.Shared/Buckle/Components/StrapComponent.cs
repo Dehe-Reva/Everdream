@@ -106,6 +106,12 @@ public sealed partial class StrapComponent : Component
     /// </summary>
     [DataField]
     public bool BuckleOnInteractHand = true;
+
+    /// <summary>
+    /// Whether to change layers when rotating north.
+    /// </summary>
+    [DataField]
+    public bool HasChairBack = true;
 }
 
 public enum StrapPosition
