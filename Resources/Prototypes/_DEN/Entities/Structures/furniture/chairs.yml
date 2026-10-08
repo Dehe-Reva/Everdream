@@ -363,6 +363,12 @@
   - type: Sprite
     sprite: _DEN/Structures/Furniture/chairs.rsi
     state: somberstool
+    # Everdream
+  - type: Strap
+    position: Stand
+    buckleOffset: "0,-0.05"
+    hasChairBack: false
+    # End Everdream
 
 - type: entity
   parent: [ StoolBase, BasePsionic ]

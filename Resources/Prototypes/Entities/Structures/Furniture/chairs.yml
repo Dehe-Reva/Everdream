@@ -206,6 +206,12 @@
     bodyType: Static
   - type: Transform
     anchored: true
+    # Everdream
+  - type: Strap
+    position: Stand
+    buckleOffset: "0,-0.05"
+    hasChairBack: false
+    # End Everdream
 
 - type: entity
   name: chair
@@ -238,6 +244,12 @@
   - type: Construction
     graph: Seat
     node: stool
+    # Everdream
+  - type: Strap
+    position: Stand
+    buckleOffset: "0,-0.05"
+    hasChairBack: false
+    # End Everdream
 
 - type: entity
   name: bar stool
@@ -515,6 +527,12 @@
             max: 2
       - !type:DoActsBehavior
         acts: ["Destruction"]
+    # Everdream
+  - type: Strap
+    position: Stand
+    buckleOffset: "0,-0.05"
+    hasChairBack: false
+    # End Everdream
 
 - type: entity
   name: wooden bench
