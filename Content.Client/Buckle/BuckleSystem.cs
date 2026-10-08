@@ -119,7 +119,7 @@ internal sealed class BuckleSystem : SharedBuckleSystem
             if (!TryComp<SpriteComponent>(buckledEntity, out var buckledSprite))
                 continue;
 
-            if (isNorth)
+            if (isNorth && component.HasChairBack)
             {
                 buckle.OriginalDrawDepth ??= buckledSprite.DrawDepth;
                 buckledSprite.DrawDepth = strapSprite.DrawDepth - 1;
