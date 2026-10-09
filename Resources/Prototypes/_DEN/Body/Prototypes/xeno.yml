@@ -1,0 +1,17 @@
+- type: body
+  id: Xeno
+  name: "xeno"
+  root: torso
+  slots:
+    torso:
+      part: TorsoAnimal
+      connections:
+      - legs
+      organs:
+        heart: OrganXenoHeart
+    legs:
+      part: LegsAnimal
+      connections:
+      - feet
+    feet:
+      part: FeetAnimal
