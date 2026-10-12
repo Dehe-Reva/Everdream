@@ -55,7 +55,9 @@
 
 - type: marking
   id: TailPoodleAnimated
-  parent: BaseTailMarking
+  bodyPart: Tail
+  markingCategory: Tail
+  speciesRestriction: []
   sprites:
   - sprite: _Everdream/Mobs/Customization/poodle.rsi
     state: poodle_tail_wagging_primary
