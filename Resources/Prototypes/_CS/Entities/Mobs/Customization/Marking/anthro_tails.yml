@@ -22,11 +22,10 @@
     state: m_tail_australianshepherd_FRONT_secondary
 
 - type: marking
-  id: TailAussieShepWag
+  id: TailAussieShepAnimated
   bodyPart: Tail
   markingCategory: Tail
-  speciesRestriction: [Vulpkanin, Rodentia, SlimePerson, Human, Harpy, IPC, Arachne, Felinid, Oni, Kitsune]
-  kindAllowance: [BasicHumanlike, BasicFurry]
+  speciesRestriction: []
   layering:
     m_waggingtail_australianshepherd_BEHIND_primary: TailBehind
     m_waggingtail_australianshepherd_BEHIND_secondary: TailBehind
