@@ -75,6 +75,9 @@
     PrayerRugBlue: 3 #TheDen
     PrayerRugGreen: 3 #TheDen
     PrayerRugRed: 3 #TheDen
+    ClothingNeckChaplainCollar: 3 # Everdream
+    ClothingNeckKeepsakeCollar: 3 # Everdream
+    ClothingPriestessCorsetAndTabard: 3 # Everdream
   emaggedInventory:
     ClothingOuterArmorCult: 1
     ClothingHeadHelmetCult: 1
