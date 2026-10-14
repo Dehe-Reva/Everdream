@@ -489,7 +489,7 @@ marking-TailPoodle-poodle_tail_primary = Poodle Tail (Primary)
 marking-TailPoodle-poodle_tail_secondary = Poodle Tail (Secondary)
 marking-TailPoodle = Poodle Tail
 
-marking-TailPoodleAnimated = Poodle Tail (animated)
+marking-TailPoodleAnimated = Poodle Tail (Animated)
 
 marking-TailQueenInsect-m_tail_queeninsect_BEHIND_primary = Insect Abdomen, Queen (Primary)
 marking-TailQueenInsect-m_tail_queeninsect_BEHIND_secondary = Insect Abdomen, Queen (Secondary)
