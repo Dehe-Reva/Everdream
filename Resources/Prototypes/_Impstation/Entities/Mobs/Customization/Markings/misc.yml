@@ -582,6 +582,7 @@
 - type: marking
   id: MothBiggerEyes
   bodyPart: Eyes
+  markingCategory: Eyes
   speciesRestriction: [ Moth ]
   coloring:
     default:
