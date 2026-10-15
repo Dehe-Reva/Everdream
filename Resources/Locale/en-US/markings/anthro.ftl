@@ -485,6 +485,12 @@ marking-TailPlugTail-m_tail_plugtail_FRONT_secondary = Cable Tail, Plug (Seconda
 marking-TailPlugTail-m_tail_plugtail_FRONT_tertiary = Cable Tail, Plug (tertiary)
 marking-TailPlugTail = Cable Tail, Plug
 
+marking-TailPoodle-poodle_tail_primary = Poodle Tail (Primary)
+marking-TailPoodle-poodle_tail_secondary = Poodle Tail (Secondary)
+marking-TailPoodle = Poodle Tail
+
+marking-TailPoodleAnimated = Poodle Tail (Animated)
+
 marking-TailQueenInsect-m_tail_queeninsect_BEHIND_primary = Insect Abdomen, Queen (Primary)
 marking-TailQueenInsect-m_tail_queeninsect_BEHIND_secondary = Insect Abdomen, Queen (Secondary)
 marking-TailQueenInsect-m_tail_queeninsect_FRONT_primary = Insect Abdomen, Queen (Primary)
