@@ -10,9 +10,7 @@
     sprite: _Everdream/Clothing/Neck/Collars/chaplain_collar.rsi
   - type: Tag
     tags:
-    - ObjectOfSpiritualSignificance # Not sure what this does! It's also on the stole. But I like it. -kc
     - WhitelistChameleon
-    - WhitelistChameleonAdvancedCollar
 
 - type: entity
   parent: ClothingNeckCollarBaseFoldable
@@ -27,4 +25,3 @@
   - type: Tag
     tags:
     - WhitelistChameleon
-    - WhitelistChameleonAdvancedCollar
