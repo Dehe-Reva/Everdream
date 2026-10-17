@@ -29,8 +29,7 @@
 
 - type: marking
   id: fizz
-  bodyPart: Chest
-  markingCategory: Chest
+  parent: BaseChestMarking
   speciesRestriction: [ SlimePerson ]
   forcedColoring: false
   followSkinColor: false
@@ -40,8 +39,7 @@
 
 - type: marking
   id: bubble
-  bodyPart: Chest
-  markingCategory: Chest
+  parent: BaseChestMarking
   speciesRestriction: [ SlimePerson ]
   forcedColoring: false
   followSkinColor: false
@@ -51,8 +49,7 @@
 
 - type: marking
   id: fishbowl
-  bodyPart: Chest
-  markingCategory: Chest
+  parent: BaseChestMarking
   speciesRestriction: [ SlimePerson ]
   forcedColoring: false
   followSkinColor: false
@@ -64,8 +61,7 @@
 
 - type: marking
   id: FadingStars
-  bodyPart: Chest
-  markingCategory: Chest
+  parent: BaseChestMarking
   speciesRestriction: [ SlimePerson ]
   forcedColoring: false
   followSkinColor: false
@@ -80,7 +76,7 @@
 
 - type: marking
   id: Shadow
-  parent: BaseFace
+  parent: BaseFaceMarking
   forcedColoring: true
   coloring:
     default:
@@ -93,18 +89,14 @@
 
 - type: marking
   id: DionaLivingNymph
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Diona ]
+  parent: BaseChestMarking
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
     state: dionalivingnymph
 
 - type: marking
   id: DionaMossChest
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Diona ]
+  parent: BaseChestMarking
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -115,7 +107,6 @@
   id: DionaMoonBloom
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [ Diona ]
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -125,9 +116,7 @@
 
 - type: marking
   id: DionaBigFirefly
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Diona ]
+  parent: BaseHeadMarking
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -137,9 +126,7 @@
 
 - type: marking
   id: DionaFirefly
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Diona, IPC, SlimePerson, Resomi ]
+  parent: BaseChestMarking
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -149,9 +136,7 @@
 
 - type: marking
   id: DionaPollenDust
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Diona, IPC, SlimePerson ]
+  parent: BaseHeadMarking
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -160,9 +145,7 @@
 
 - type: marking
   id: DwarfBearCheeks
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseHeadMarking
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
@@ -171,9 +154,7 @@
 
 - type: marking
   id: DwarfHeadGlow
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseHeadMarking
   followSkinColor: false
   sprites:
   - sprite: _Impstation/Mobs/Customization/animatedmarkings.rsi
@@ -182,9 +163,7 @@
 
 - type: marking
   id: DwarfConstellationHead
-  bodyPart: Head
-  markingCategory: Overlay
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseHeadMarking
   coloring:
     default:
       type:
@@ -198,9 +177,7 @@
 
 - type: marking
   id: DwarfConstellationChest
-  bodyPart: Chest
-  markingCategory: Overlay
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   coloring:
     default:
       type:
@@ -214,9 +191,7 @@
 
 - type: marking
   id: DwarfConstellationLArm
-  bodyPart: LArm
-  markingCategory: LeftArm #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLArmMarking
   coloring:
     default:
       type:
@@ -230,9 +205,7 @@
 
 - type: marking
   id: DwarfConstellationLHand
-  bodyPart: LHand
-  markingCategory: LeftHand #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLHandMarking
   coloring:
     default:
       type:
@@ -246,9 +219,7 @@
 
 - type: marking
   id: DwarfConstellationRArm
-  bodyPart: RArm
-  markingCategory: RightArm #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseRArmMarking
   coloring:
     default:
       type:
@@ -262,9 +233,7 @@
 
 - type: marking
   id: DwarfConstellationRHand
-  bodyPart: RHand
-  markingCategory: RightHand #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseRHandMarking
   coloring:
     default:
       type:
@@ -278,9 +247,7 @@
 
 - type: marking
   id: DwarfConstellationLLeg
-  bodyPart: LLeg
-  markingCategory: LeftLeg #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLLegMarking
   coloring:
     default:
       type:
@@ -294,9 +261,7 @@
 
 - type: marking
   id: DwarfConstellationLFoot
-  bodyPart: LFoot
-  markingCategory: LeftFoot #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLFootMarking
   coloring:
     default:
       type:
@@ -310,9 +275,7 @@
 
 - type: marking
   id: DwarfConstellationRLeg
-  bodyPart: RLeg
-  markingCategory: RightLeg #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseRLegMarking
   coloring:
     default:
       type:
@@ -326,9 +289,7 @@
 
 - type: marking
   id: DwarfConstellationRFoot
-  bodyPart: RFoot
-  markingCategory: RightFoot #TheDen: Marking fixes
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseRFootMarking
   coloring:
     default:
       type:
@@ -342,36 +303,28 @@
 
 - type: marking
   id: DwarfChestHair
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
     state: dwarfchesthair
 
 - type: marking
   id: DwarfArmHair
-  bodyPart: LArm
-  markingCategory: LeftArm
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLArmMarking
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
     state: dwarfarmhair
 
 - type: marking
   id: DwarfLegHair
-  bodyPart: LLeg
-  markingCategory: LeftLeg
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLLegMarking
   sprites:
   - sprite: _Impstation/Mobs/Customization/markingsbundle1.rsi
     state: dwarfleghair
 
 - type: marking
   id: DwarfTattooShootingStar
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   coloring:
     default:
       type:
@@ -384,9 +337,7 @@
 
 - type: marking
   id: DwarfMarkBear
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   sexRestriction: [Male] #TheDen - Splitting the scars and tattoos
   coloring:
     default:
@@ -400,9 +351,7 @@
 
 - type: marking
   id: DwarfMarkBearFemale
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   sexRestriction: [Female] #TheDen - Splitting the scars and tattoos
   coloring:
     default:
@@ -416,9 +365,7 @@
 
 - type: marking
   id: DwarfMarkKangarooLHand
-  bodyPart: LHand
-  markingCategory: LeftHand
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseLHandMarking
   coloring:
     default:
       type:
@@ -431,9 +378,7 @@
 
 - type: marking
   id: DwarfMarkKangarooRHand
-  bodyPart: RHand
-  markingCategory: RightHand
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseRHandMarking
   coloring:
     default:
       type:
@@ -446,9 +391,7 @@
 
 - type: marking
   id: DwarfMarkCobra
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   coloring:
     default:
       type:
@@ -461,9 +404,7 @@
 
 - type: marking
   id: DwarfMarkSpider
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Dwarf, Human, Felinid, Canid, Oni, SlimePerson, Kitsune ]
+  parent: BaseChestMarking
   coloring:
     default:
       type:
@@ -571,7 +512,6 @@
   id: MothGlowAntenna
   bodyPart: HeadTop
   markingCategory: HeadTop
-  speciesRestriction: [ Moth ]
   forcedColoring: false
   followSkinColor: false
   sprites:
@@ -642,7 +582,7 @@
 - type: marking
   id: MothBiggerEyes
   bodyPart: Eyes
-  markingCategory: Head
+  markingCategory: Eyes
   speciesRestriction: [ Moth ]
   coloring:
     default:
@@ -706,8 +646,7 @@
 
 - type: marking
   id: VoxTailStripes
-  bodyPart: Chest
-  markingCategory: Overlay
+  parent: BaseChestMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -717,8 +656,7 @@
 
 - type: marking
   id: VoxLArmProsthetic
-  bodyPart: LHand
-  markingCategory: LeftHand
+  parent: BaseLHandMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -733,8 +671,7 @@
 
 - type: marking
   id: VoxRArmProsthetic
-  bodyPart: RHand
-  markingCategory: RightHand
+  parent: BaseRHandMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -784,8 +721,7 @@
 
 - type: marking
   id: VoxChestPlumage
-  bodyPart: Chest
-  markingCategory: Chest
+  parent: BaseChestMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -806,8 +742,7 @@
 
 - type: marking
   id: VoxFootGradientLFoot
-  bodyPart: LFoot
-  markingCategory: LeftFoot
+  parent: BaseLFootMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -817,8 +752,7 @@
 
 - type: marking
   id: VoxFootGradientRFoot
-  bodyPart: RFoot
-  markingCategory: RightFoot
+  parent: BaseRFootMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -828,8 +762,7 @@
 
 - type: marking
   id: VoxLegGradientLLeg
-  bodyPart: LLeg
-  markingCategory: LeftLeg
+  parent: BaseLLegMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -839,8 +772,7 @@
 
 - type: marking
   id: VoxLegGradientRLeg
-  bodyPart: RFoot
-  markingCategory: RightLeg
+  parent: BaseRFootMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -850,8 +782,7 @@
 
 - type: marking
   id: VoxHandGradientRHand
-  bodyPart: RHand
-  markingCategory: RightHand
+  parent: BaseRHandMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -865,8 +796,7 @@
 
 - type: marking
   id: VoxHandGradientLHand
-  bodyPart: LHand
-  markingCategory: LeftHand
+  parent: BaseLHandMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -880,8 +810,7 @@
 
 - type: marking
   id: VoxHeadGradient
-  bodyPart: Head
-  markingCategory: Head
+  parent: BaseHeadMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -931,8 +860,7 @@
 
 - type: marking
   id: VoxTailSingleStripe
-  bodyPart: Chest
-  markingCategory: Overlay
+  parent: BaseChestMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -964,8 +892,7 @@
 
 - type: marking
   id: VoxArmsStripesLHand
-  bodyPart: LArm
-  markingCategory: LeftArm
+  parent: BaseLArmMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -975,8 +902,7 @@
 
 - type: marking
   id: VoxArmsStripesRHand
-  bodyPart: RArm
-  markingCategory: RightArm
+  parent: BaseRArmMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -986,8 +912,7 @@
 
 - type: marking
   id: VoxLegsStripesLLeg
-  bodyPart: LLeg
-  markingCategory: LeftLeg
+  parent: BaseLLegMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -997,8 +922,7 @@
 
 - type: marking
   id: VoxLegsStripesRLeg
-  bodyPart: RFoot
-  markingCategory: RightLeg
+  parent: BaseRFootMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -1030,8 +954,7 @@
 
 - type: marking
   id: VoxCheeks
-  bodyPart: Head
-  markingCategory: Head
+  parent: BaseHeadMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -1041,8 +964,7 @@
 
 - type: marking
   id: VoxBelly
-  bodyPart: Chest
-  markingCategory: Chest
+  parent: BaseChestMarking
   speciesRestriction: [ Vox ]
   forcedColoring: false
   followSkinColor: false
@@ -1052,9 +974,7 @@
 
 - type: marking
   id: VitiligoHeadL
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseHeadMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1065,9 +985,7 @@
 
 - type: marking
   id: VitiligoHeadR
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseHeadMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1078,9 +996,7 @@
 
 - type: marking
   id: VitiligoHeadJaw
-  bodyPart: Head
-  markingCategory: Head
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseHeadMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1091,9 +1007,7 @@
 
 - type: marking
   id: VitiligoChestF
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Human, Dwarf, Oni, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseChestMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1104,9 +1018,7 @@
 
 - type: marking
   id: VitiligoChestSpots
-  bodyPart: Chest
-  markingCategory: Chest
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseChestMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1117,9 +1029,7 @@
 
 - type: marking
   id: VitiligoArmR
-  bodyPart: RArm
-  markingCategory: RightArm
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseRArmMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1130,9 +1040,7 @@
 
 - type: marking
   id: VitiligoArmL
-  bodyPart: LArm
-  markingCategory: LeftArm
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseLArmMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1143,9 +1051,7 @@
 
 - type: marking
   id: VitiligoHandR
-  bodyPart: RHand
-  markingCategory: RightHand
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseRHandMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1156,9 +1062,7 @@
 
 - type: marking
   id: VitiligoHandL
-  bodyPart: LHand
-  markingCategory: LeftHand
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseLHandMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1169,9 +1073,7 @@
 
 - type: marking
   id: VitiligoLegR
-  bodyPart: RFoot
-  markingCategory: RightLeg
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseRFootMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
@@ -1182,9 +1084,7 @@
 
 - type: marking
   id: VitiligoLegL
-  bodyPart: LLeg
-  markingCategory: LeftLeg
-  speciesRestriction: [ Human, Dwarf, Oni, Felinid, Canid, Kitsune] # Frontier: add  Oni, Felinid - The Den - Add Canid
+  parent: BaseLLegMarking
   coloring: #TheDen: Colorable Vitiligo
     default:
       type:
