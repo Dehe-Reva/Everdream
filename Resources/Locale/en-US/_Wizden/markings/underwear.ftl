@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: MIT AND AGPL-3.0-or-later
 
-marking-UnderwearDefault-boxers = Boxers
+marking-UnderwearDefault-boxers = Underwear
 marking-UnderwearDefault = Boxers
 
 marking-UnderwearBriefs-briefs = Underwear
