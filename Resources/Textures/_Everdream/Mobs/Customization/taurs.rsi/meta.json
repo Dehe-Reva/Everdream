@@ -32,6 +32,10 @@
             "directions": 4
         },
         {
+            "name": "taur_centaur_secondary",
+            "directions": 4
+        },
+        {
             "name": "taur_drake",
             "directions": 4
         },

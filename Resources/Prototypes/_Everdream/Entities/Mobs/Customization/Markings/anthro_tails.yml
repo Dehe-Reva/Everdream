@@ -98,6 +98,8 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_centaur
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_centaur_secondary
 
 - type: marking
   id: TaurLizard
