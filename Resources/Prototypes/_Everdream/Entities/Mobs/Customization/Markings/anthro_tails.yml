@@ -84,6 +84,10 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_fox
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_fox_secondary
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_fox_tertiary
 
 - type: marking
   id: TaurWolf

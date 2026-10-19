@@ -16,6 +16,14 @@
             "directions": 4
         },  
         {
+            "name": "taur_fox_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_fox_tertiary",
+            "directions": 4
+        },
+        {
             "name": "taur_wolf",
             "directions": 4
         },
