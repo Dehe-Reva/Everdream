@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Created by Peptide90 for SS14",
+  "size": {
+    "x": 64,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "television_wall"
+    },
+    {
+      "name": "television_wall_off"
+    },
+    {
+      "name": "television_wallbroken"
+    },
+    {
+      "name": "television_wallscreen",
+      "delays": [
+        [
+          10.0,
+          0.2,
+          0.5,
+          0.2,
+          5.0,
+          0.2,
+          0.5,
+          0.2,
+          0.5,
+          0.2,
+          2.5,
+          0.2,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7
+        ]
+      ]
+    }
+  ]
+}
