@@ -84,10 +84,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_fox
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_fox_secondary
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_fox_tertiary
 
 - type: marking
   id: TaurWolf
@@ -95,8 +91,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_wolf
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_wolf_secondary
 
 - type: marking
   id: TaurCentaur
@@ -104,8 +98,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_centaur
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_centaur_secondary
 
 - type: marking
   id: TaurLizard
@@ -113,8 +105,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_lizard
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_lizard_secondary
 
 - type: marking
   id: TaurLamia
@@ -122,8 +112,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_lamia
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_lamia_secondary
 
 - type: marking
   id: TaurDrake
@@ -131,8 +119,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_drake
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_drake_secondary
 
 - type: marking
   id: TaurSpider
@@ -140,8 +126,6 @@
   sprites:
   - sprite: _Everdream/Mobs/Customization/taurs.rsi
     state: taur_spider
-  - sprite: _Everdream/Mobs/Customization/taurs.rsi
-    state: taur_spider_secondary
 
 - type: marking
   id: TaurSpiderBrown

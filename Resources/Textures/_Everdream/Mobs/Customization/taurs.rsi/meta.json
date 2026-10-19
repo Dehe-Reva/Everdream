@@ -14,21 +14,9 @@
         {
             "name": "taur_fox",
             "directions": 4
-        },
-        {
-            "name": "taur_fox_secondary",
-            "directions": 4
-        },
-        {
-            "name": "taur_fox_tertiary",
-            "directions": 4
-        },
+        },  
         {
             "name": "taur_wolf",
-            "directions": 4
-        },
-        {
-            "name": "taur_wolf_secondary",
             "directions": 4
         },
         {
@@ -40,15 +28,7 @@
             "directions": 4
         },
         {
-            "name": "taur_lamia_secondary",
-            "directions": 4
-        },
-        {
             "name": "taur_centaur",
-            "directions": 4
-        },
-        {
-            "name": "taur_centaur_secondary",
             "directions": 4
         },
         {
@@ -56,23 +36,11 @@
             "directions": 4
         },
         {
-            "name": "taur_drake_secondary",
-            "directions": 4
-        },
-        {
             "name": "taur_lizard",
             "directions": 4
         },
         {
-            "name": "taur_lizard_secondary",
-            "directions": 4
-        },
-        {
             "name": "taur_spider",
-            "directions": 4
-        },
-        {
-            "name": "taur_spider_secondary",
             "directions": 4
         },
         {
