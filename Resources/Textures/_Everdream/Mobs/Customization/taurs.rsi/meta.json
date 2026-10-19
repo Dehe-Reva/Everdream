@@ -28,11 +28,19 @@
             "directions": 4
         },
         {
+            "name": "taur_wolf_secondary",
+            "directions": 4
+        },
+        {
             "name": "taur_feline",
             "directions": 4
         },
         {
             "name": "taur_lamia",
+            "directions": 4
+        },
+        {
+            "name": "taur_lamia_secondary",
             "directions": 4
         },
         {
@@ -48,11 +56,23 @@
             "directions": 4
         },
         {
+            "name": "taur_drake_secondary",
+            "directions": 4
+        },
+        {
             "name": "taur_lizard",
             "directions": 4
         },
         {
+            "name": "taur_lizard_secondary",
+            "directions": 4
+        },
+        {
             "name": "taur_spider",
+            "directions": 4
+        },
+        { 
+            "name": "taur_spider_secondary",
             "directions": 4
         },
         {
