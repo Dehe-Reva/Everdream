@@ -63,3 +63,89 @@
     state: poodle_tail_wagging_primary
   - sprite: _Everdream/Mobs/Customization/poodle.rsi
     state: poodle_tail_wagging_secondary
+    
+- type: marking
+  id: TaurFelineSpots
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_feline_spots
+
+- type: marking
+  id: TaurFeline
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_feline
+
+- type: marking
+  id: TaurFox
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_fox
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_fox_secondary
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_fox_tertiary
+
+- type: marking
+  id: TaurWolf
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_wolf
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_wolf_secondary
+
+- type: marking
+  id: TaurCentaur
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_centaur
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_centaur_secondary
+
+- type: marking
+  id: TaurLizard
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_lizard
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_lizard_secondary
+
+- type: marking
+  id: TaurLamia
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_lamia
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_lamia_secondary
+
+- type: marking
+  id: TaurDrake
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_drake
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_drake_secondary
+
+- type: marking
+  id: TaurSpider
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_spider
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_spider_secondary
+
+- type: marking
+  id: TaurSpiderBrown
+  parent: BaseTailMarking
+  sprites:
+  - sprite: _Everdream/Mobs/Customization/taurs.rsi
+    state: taur_spider_brown
