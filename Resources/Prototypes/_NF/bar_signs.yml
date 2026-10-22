@@ -33,11 +33,3 @@
     sprite: _NF/Structures/Wallmounts/barsign.rsi
     state: littletreats
   description: barsign-prototype-description-little-treats
-
-- type: barSign
-  id: WhiskeyEchoes
-  name: barsign-prototype-name-whiskey-echoes
-  icon:
-    sprite: _NF/Structures/Wallmounts/barsign.rsi
-    state: whiskeyechoes
-  description: barsign-prototype-description-whiskey-echoes
