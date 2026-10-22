@@ -4,11 +4,11 @@
 # Frontier bar sign additions
 - type: barSign
   id: Maltroach
-  name: barsign-prototype-name-maltroach
+  name: barsign-prototype-name-maltroachalt
   icon:
     sprite: _NF/Structures/Wallmounts/barsign.rsi
     state: maltroach
-  description: barsign-prototype-description-maltroach
+  description: barsign-prototype-description-maltroachalt
 
 - type: barSign
   id: NeonFlamingos

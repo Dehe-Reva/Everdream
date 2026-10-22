@@ -113,6 +113,10 @@ barsign-prototype-description-spacebucks = You can't get away from them, even in
 barsign-prototype-name-maltroach = Maltroach
 barsign-prototype-description-maltroach = Squeak!
 
+## Maltroach (_NF)
+barsign-prototype-name-maltroachalt = Maltroach (Frontier)
+barsign-prototype-description-maltroach = Mothroaches politely greet you into the bar, or are they greeting each other?
+
 ## EmpBarSign
 barsign-prototype-description-empbarsign = Something has gone very wrong.
 
