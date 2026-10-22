@@ -1,0 +1,83 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "Sprited and made by a collection of artists from the VOREstation SS13 Community, licensed under CC-BY-SA-3.0.",
+    "size": {
+        "x": 64,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "taur_feline_spots",
+            "directions": 4
+        },
+        {
+            "name": "taur_fox",
+            "directions": 4
+        },  
+        {
+            "name": "taur_fox_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_fox_tertiary",
+            "directions": 4
+        },
+        {
+            "name": "taur_wolf",
+            "directions": 4
+        },
+        {
+            "name": "taur_wolf_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_feline",
+            "directions": 4
+        },
+        {
+            "name": "taur_lamia",
+            "directions": 4
+        },
+        {
+            "name": "taur_lamia_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_centaur",
+            "directions": 4
+        },
+        {
+            "name": "taur_centaur_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_drake",
+            "directions": 4
+        },
+        {
+            "name": "taur_drake_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_lizard",
+            "directions": 4
+        },
+        {
+            "name": "taur_lizard_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_spider",
+            "directions": 4
+        },
+        { 
+            "name": "taur_spider_secondary",
+            "directions": 4
+        },
+        {
+            "name": "taur_spider_brown",
+            "directions": 4
+        }
+    ]
+}

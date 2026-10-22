@@ -485,12 +485,51 @@ marking-TailPlugTail-m_tail_plugtail_FRONT_secondary = Cable Tail, Plug (Seconda
 marking-TailPlugTail-m_tail_plugtail_FRONT_tertiary = Cable Tail, Plug (tertiary)
 marking-TailPlugTail = Cable Tail, Plug
 
+# Everdream
 marking-TailPoodle-poodle_tail_primary = Poodle Tail (Primary)
 marking-TailPoodle-poodle_tail_secondary = Poodle Tail (Secondary)
 marking-TailPoodle = Poodle Tail
 
 marking-TailPoodleAnimated = Poodle Tail (Animated)
 
+marking-TaurFelineSpots = Spotted Feline Taur
+marking-TaurFelineSpots-taur_feline_spots = Spotted Feline Taur (Primary)
+
+marking-TaurFeline = Feline Taur
+marking-TaurFeline-taur_feline = Feline Taur (Primary)
+
+marking-TaurFox = Fox Taur
+marking-TaurFox-taur_fox = Fox Taur (Primary)
+marking-TaurFox-taur_fox_secondary = Fox Taur (Secondary)
+marking-TaurFox-taur_fox_tertiary = Fox Taur (Tertiary)
+
+marking-TaurWolf = Wolf Taur
+marking-TaurWolf-taur_wolf = Wolf Taur (Primary)
+marking-TaurWolf-taur_wolf_secondary = Wolf Taur (Secondary)
+
+marking-TaurCentaur = Centaur
+marking-TaurCentaur-taur_centaur = Centaur (Primary)
+making-TaurCentaur-taur_centaur_secondary = Centaur (Secondary)
+
+marking-TaurDrake = Drake Taur
+marking-TaurDrake-taur_drake = Drake Taur (Primary)
+marking-TaurDrake-taur_drake_secondary = Drake Taur (Secondary)
+
+marking-TaurLizard = Lizard Taur
+marking-TaurLizard-taur_lizard = Lizard Taur (Primary)
+marking-TaurLizard-taur_lizard_secondary = Lizard Taur (Secondary)
+
+marking-TaurLamia = Lamia Taur
+marking-TaurLamia-taur_lamia = Lamia Taur (Primary)
+marking-TaurLamia-taur_lamia_secondary = Lamia Taur (Secondary)
+
+marking-TaurSpider = Spider Taur
+marking-TaurSpider-taur_spider = Spider Taur (Primary)
+marking-TaurSpider-taur_spider_secondary = Spider Taur (Secondary)
+
+marking-TaurSpiderBrown = Spider Taur Brown
+marking-TaurSpiderBrown-taur_spider_brown = Spider Taur Brown (Primary)
+# EverdreamEnd
 marking-TailQueenInsect-m_tail_queeninsect_BEHIND_primary = Insect Abdomen, Queen (Primary)
 marking-TailQueenInsect-m_tail_queeninsect_BEHIND_secondary = Insect Abdomen, Queen (Secondary)
 marking-TailQueenInsect-m_tail_queeninsect_FRONT_primary = Insect Abdomen, Queen (Primary)
