@@ -118,3 +118,6 @@ prefix = "!"
 [transfer]
 http = true
 http_endpoint = "http://ss14.everdream.space:1212"
+
+[netres]
+limit = 10
