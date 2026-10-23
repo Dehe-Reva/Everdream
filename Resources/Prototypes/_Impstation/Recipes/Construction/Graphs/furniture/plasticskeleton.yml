@@ -11,7 +11,7 @@
             - !type:SnapToGrid { }
           steps:
             - material: Plastic
-              amount: 10
+              amount: 5 # DEN: 10 -> 5
             - material: MetalRod
               amount: 2
               doAfter: 2
@@ -23,7 +23,7 @@
             - !type:EmptyAllContainers
             - !type:SpawnPrototype
               prototype: SheetPlastic
-              amount: 10
+              amount: 5 # DEN: 10 -> 5
             - !type:SpawnPrototype
               prototype: PartRodMetal
               amount: 2
@@ -48,7 +48,7 @@
           - !type:EmptyAllContainers
           - !type:SpawnPrototype
             prototype: SheetPlastic
-            amount: 10
+            amount: 5 # DEN: 10 -> 5
           - !type:SpawnPrototype
             prototype: PartRodMetal
             amount: 2
