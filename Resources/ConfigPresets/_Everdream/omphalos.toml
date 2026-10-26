@@ -1,0 +1,150 @@
+﻿# SPDX-FileCopyrightText: 2026 Yule
+#
+# SPDX-License-Identifier: MIT
+
+[admin]
+bwoink_use_admin_ooc_color = true
+deadmin_on_join = false
+new_player_threshold = 600
+see_own_notes = false
+use_discord_role_color = true
+use_discord_role_name = true
+
+[atmos]
+space_wind = false
+
+[build]
+fork_id = "everdream"
+
+[chat]
+max_announcement_length = 1000
+max_message_length = 30000
+rate_limit_period = 1
+
+[control]
+storage_limit = 3
+
+[discord]
+news_webhook_send_during_round = true
+prefix = "!"
+
+[events]
+enabled = false
+
+[game]
+auto_eat_drinks = true
+auto_eat_food = true
+defaultpreset = "sandbox"
+desc = "Development server for the Everdream SS14 community."
+hostname = "The Everdream - Omphalos"
+# Straight in-game baby
+lobbyenabled = false
+# Frontier: special map
+map = "NFDev"
+maxcharacterslots = 100
+role_timers = false
+role_whitelist = false
+soft_max_players = 60
+
+[gateway]
+generator_enabled = false
+
+[ghost]
+allow_same_character = true
+respawn_max_players = 120
+role_time = 0.5
+quick_lottery = true
+
+[hub]
+# Set to true to show this server on the public server list
+# Before enabling this, read: https://docs.spacestation14.io/hosts/hub-rules
+advertise = false
+# Comma-separated list of URLs of hub servers to advertise to.
+hub_urls = ""
+# Comma-separated list of tags, useful for categorizing your server.
+tags = "18+,lang:en-US,rp:med,region:am_n_w,no_tag_infer"
+
+[ic]
+name_case = false
+flavor_text = true
+punctuation = true
+restricted_names = false
+
+[infolinks]
+bug_report = "https://github.com/Dehe-Reva/Everdream/issues"
+github = "https://github.com/Dehe-Reva/Everdream/tree/main"
+
+[log]
+enabled = true
+format = "log_%(date)s-%(time)s.txt"
+path = "logs"
+
+[netres]
+limit = 10
+
+[nf14.atmos]
+allow_map_gas_extraction = true
+
+[nf14.greeting]
+enabled = false
+
+[nf14.respawn]
+cryo_first_time = 0
+time = 0
+
+[nf14.shipyard]
+enabled = false
+
+[nf14.smuggling]
+max_sector_dead_drops = 0
+max_simultaneous_pods = 0
+
+[nf14.uncryo]
+maxtime = 2592000
+
+[nf14.worldgen]
+cargo_depots = 0
+market_stations = 0
+optional_stations = 0
+
+[ooc]
+enable_during_round = true
+
+[physics]
+# Makes mapping annoying
+grid_splitting = false
+
+[procgen]
+preload = true
+
+[reclaimer]
+allow_gibbing = false
+
+[server]
+id = "everdream"
+
+[shuttle]
+arrivals = false
+auto_call_time = 0
+emergency = false
+grid_fill = false
+mass_limit = 0
+preload_grids = false
+recall_turning_point = 0
+shipyard = true
+
+[status]
+enabled = true
+
+[transfer]
+http = true
+http_endpoint = "http://ss14.everdream.space:1212"
+
+[vote]
+autovote_enabled = false
+
+[whitelist]
+enabled = true
+
+[worldgen]
+enabled = false
