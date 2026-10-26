@@ -39,20 +39,20 @@
 
 ## Frontier:
 # Workflows & repo config
-/.github/ @Cheackraze
+#/.github/ @Cheackraze
 
 # Database
-/Content.*.Database/ @Cheackraze
+#/Content.*.Database/ @Cheackraze
 
 # Config files
-/Resources/ConfigPresets/_NF/ @Cheackraze
-/Content.Shared/CCVar/ @Cheackraze
-/Content.Shared/*/CCVar/ @Cheackraze
-/Content.Shared/*/CCVars/ @Cheackraze
+#/Resources/ConfigPresets/_NF/ @Cheackraze
+#/Content.Shared/CCVar/ @Cheackraze
+#/Content.Shared/*/CCVar/ @Cheackraze
+#Content.Shared/*/CCVars/ @Cheackraze
 
 # Mapchecker
 #/.github/mapchecker/ @whatston3
 #/.github/workflows/frontier-mapchecker.yml @whatston3
 
 # All Frontier Maps
-/Resources/Maps/_NF/ @arimah @dustylens @MagnusCrowe @the-hivequeen
+#/Resources/Maps/_NF/ @arimah @dustylens @MagnusCrowe @the-hivequeen
