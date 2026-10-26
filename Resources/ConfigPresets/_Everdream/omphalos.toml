@@ -82,6 +82,31 @@ path = "logs"
 [netres]
 limit = 10
 
+[nf14.atmos]
+allow_map_gas_extraction = true
+
+[nf14.greeting]
+enabled = false
+
+[nf14.respawn]
+cryo_first_time = 0
+time = 0
+
+[nf14.shipyard]
+enabled = false
+
+[nf14.smuggling]
+max_sector_dead_drops = 0
+max_simultaneous_pods = 0
+
+[nf14.uncryo]
+maxtime = 2592000
+
+[nf14.worldgen]
+cargo_depots = 0
+market_stations = 0
+optional_stations = 0
+
 [ooc]
 enable_during_round = true
 
